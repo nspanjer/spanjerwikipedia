@@ -1,0 +1,123 @@
+/* Stylesheet */
+
+
+
+
+/*===============
+	LAYOUT
+===============*/
+.container {
+	background-image: url('../img/tbl-bg.jpg');
+	margin: 0 auto;
+	width: 95%; /* 960px */
+	max-width: 95%; /* 960px */
+}
+ 
+nav {
+	
+	position: left;
+
+}
+ 
+article {
+	background: lightgray;
+	float: left;
+	width: 66.66666666%; /* 640px / 960px = 66.66666666% */
+}
+ 
+aside {
+	
+	float: left;
+	width: 33.3333333%;
+ 
+}
+ 
+footer {
+	background: tan;
+	clear: both; 
+	width: 100%; /* 960px */
+}
+ 
+/*===============
+	TYPOGRAPHY
+===============*/
+h1 {
+	font-size: 4em; 
+font-family: "impact", serif;
+}
+ 
+h2 {
+	font-size: 2em; 
+font-family: "impact", serif
+}
+ 
+h3 {
+	font-size: 2em; 
+font-family: "impact", serif
+}
+ 
+p {
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1.25em; /* 20px */
+	line-height: 1.25em; /* 20px */
+}
+ 
+/* All Links */ 
+a {
+
+background: url('../img/lebowski.png') no-repeat -176px -928px;
+	width: 56px;
+	height: 91px;
+	color: red;
+	font-size: 2em; /* 20px */
+}
+
+a:hover {
+
+background: url('../img/lebowski.png') no-repeat -256px -928px;
+	width: 64px;
+	height: 88px
+}
+ 
+footer a {
+	font-size: 1em; /* 20px / 20px = 1em  */
+}
+ 
+ 
+/*===============
+	DESKTOP
+===============*/
+@media screen and ( max-width: 1020px ) {
+	
+	body {
+			
+	}
+ 
+} /* end of Desktop */
+ 
+ 
+/*===============
+	TABLET
+===============*/
+@media screen and ( max-width: 768px ) {
+	
+	body {
+			
+	}
+ 
+} /* end of tablet */
+ 
+/*===============
+	PHONE
+===============*/
+@media screen and ( max-width: 480px ) {
+	
+	body {
+			
+	}
+	
+	aside {
+		float: none;	
+	}
+ 
+} /* end of phone */
